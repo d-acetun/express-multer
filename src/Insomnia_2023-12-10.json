@@ -1,0 +1,79 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2023-12-10T18:46:33.757Z",
+  "__export_source": "insomnia.desktop.app:v8.3.0",
+  "resources": [
+    {
+      "_id": "req_3edda9f935e54feda166aed2d04e753a",
+      "parentId": "wrk_d3b6ab7fc65646a5b06048fadc299b5d",
+      "modified": 1702232717069,
+      "created": 1698807332312,
+      "url": "{{HOST}}/images-multer/upload/",
+      "name": "multer-save",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "multipart/form-data",
+        "params": [
+          {
+            "id": "pair_ed972994fb174871a8ca5ccff008dc22",
+            "name": "avatar",
+            "value": "",
+            "description": "",
+            "disabled": false,
+            "type": "file",
+            "fileName": "/path/"
+          }
+        ]
+      },
+      "parameters": [],
+      "headers": [
+        { "name": "Content-Type", "value": "multipart/form-data" },
+        { "name": "User-Agent", "value": "insomnia/8.3.0" }
+      ],
+      "authentication": {},
+      "metaSortKey": -1698807332312,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_d3b6ab7fc65646a5b06048fadc299b5d",
+      "parentId": null,
+      "modified": 1698807317278,
+      "created": 1698807317278,
+      "name": "files-api",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "env_f158116811ebdd518e580ffb72751936762b9c9c",
+      "parentId": "wrk_d3b6ab7fc65646a5b06048fadc299b5d",
+      "modified": 1698807418847,
+      "created": 1698807317280,
+      "name": "Base Environment",
+      "data": { "HOST": "http://localhost:3000/api/v1" },
+      "dataPropertyOrder": { "&": ["HOST"] },
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1698807317280,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_f158116811ebdd518e580ffb72751936762b9c9c",
+      "parentId": "wrk_d3b6ab7fc65646a5b06048fadc299b5d",
+      "modified": 1698807317281,
+      "created": 1698807317281,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    }
+  ]
+}
